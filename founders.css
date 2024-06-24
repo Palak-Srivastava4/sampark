@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(89, 88, 88);  
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    color: rgb(89, 88, 88);
+}
+nav{
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+nav img{
+    height: 35px;
+    margin-left: 180px;
+}
+nav ul li{
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    margin: 8px 12px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+}
+nav button{
+    border-radius: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #f05a29;;
+    align-items: center;
+    border:none;
+    height: 60px;
+    width: 220px;
+    margin-right:180px ;
+}
+nav button:hover{
+    background-color: #cb4e24e7;
+}
+
+
+.menubar {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .sub-menu{
+        display: none;
+        position: absolute;
+        background-color: #f05a29;
+        min-width: 240px;
+        z-index: 1;
+        transform: translate(0px, 20px);
+  }
+  .sub-menu a {
+    color: white;
+    padding: 12px 36px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .sub-menu {display: block;}
+
+.heading h4{
+    margin-top: 30px;
+    padding: 20px;
+    font-size: 60px;
+    font-family: "Chelsea Market", cursive; 
+    color: #000;
+    font-weight: 400;
+    text-align: center;
+}
+span{
+    color: #f05a29;
+}
+.heading h6{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 100;
+    font-family: "Chelsea Market", cursive;
+    margin-bottom: 80px;
+    font-size:40px;
+    line-height: 30px;
+}
+
+.founders-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 0px;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin: 40px;
+}
+.founder1{
+    width: 370px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    justify-content: space-between;
+    transition: all ease 0.6s;
+    border: 2px solid #f2f2f2;
+    gap: 10px;
+    margin: 40px;
+    background-color: white;
+}
+.bg-img img{
+    height: 300px;
+    width: 380px;
+    align-items: center;
+}
+.details{
+    margin: 20px;
+    background-color: white;
+}
+.details h4{
+    color: #f05a29;
+    font-size: 30px;
+    font-family: "Chelsea Market", cursive ;
+    font-weight: 400;
+}
+.details p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: gray;
+    line-height: 20px;
+}
+.btn p{
+    margin-top: 20px;
+    width: 320px;
+    height: 55px;
+    background-color: #f2f2f2;
+    text-align: left;
+    padding:18px 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: gray;
+}
+.btn p:hover{
+    cursor: pointer;
+}
+.btn span{
+    position: absolute;
+    margin-left: 200px !important;
+    color: gray;
+    font-size: 18px;
+}
+.hiddenItems{
+    display: none;
+}
+.hiddenItems p{
+    margin-top: 10px;
+    font-size: 16px;
+    color: gray;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    margin-top: 40px;
+}
+.get-in-touch{
+    background-color: bisque;
+    display: block;
+    width: 40%;
+    text-align: left;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+.get-in-touch h4{
+    font-family: "Chelsea Market", cursive; 
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px;
+    padding: 20px;
+}
+.call p{
+    color: gray;
+}
+.call a {
+    border-radius: 0%;
+    height: 40px;
+    width: 40px;
+    background-color: #efc94c;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 10px;
+    }
+    .get-in-touch a i{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .mail p{
+        color: gray;
+    }
+    .mail a {
+        border-radius: 0%;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        color: white;
+        background-color:#00baa3;
+        text-align: center;
+        box-sizing: border-box;
+        margin-right: 30px;
+        margin-top: 10px;
+        }
+        .location{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -44px;
+            padding: 20px;
+        }
+        .location p{
+            color: gray;
+        }
+        .location a {
+            border-radius: 0%;
+            height: 40px;
+            width: 40px;
+            align-items: center;
+            color: white;
+            background-color: #f86048;
+            text-align: center;
+            box-sizing: border-box;
+            margin-right: 30px;
+            margin-top: 10px;
+            }
+
+            .social-links{
+                display: flex;
+                justify-content: center;
+            }
+            .social-links a {
+            border-radius: 0%;
+            height: 50px;
+            width: 50px;
+            align-items: center;
+            background-color: rgb(36, 35, 35);
+            text-align: center;
+            gap: 40px;
+            margin:  40px 10px;
+            }
+            .social-links a i{
+                color: gray;
+                font-size: 20px;
+                line-height: 50px;
+            }
+            .social-links :hover {
+                background-color: #efc94c;
+                transition: 0.3s;
+            }
+            .social-links :hover i{
+                color: white;
+                transition: 0.3s;
+            }
+
+            .contact {
+                font-size: 14px;
+                text-decoration: none;
+                color: gray;
+            }
+            .special-menu{
+                display: flex;
+                margin: 30px;
+            }
+            .contact ul li{
+              padding: 10px;
+              list-style: none;
+            }
+            .contact ul li a{
+                text-decoration: none;
+            }
+            .contact ul li :hover{
+                color: #f05a29;
+            }
+            .with-title1 {
+                display: flex;
+                margin-top: -480px;
+                margin-left: 200px;
+            }
+            .heading{
+                margin-top: 40px;
+                margin-left: 80px;
+                margin-bottom: 15px;
+                font-size: 25px;
+                font-family: "Chelsea Market", cursive;
+            }
+            .with-title1 ul li{
+                align-items: start;
+                margin-left: 80px;
+            }
+            .with-title2{
+                display: flex;
+                margin-top: -175px;
+                margin-left: 540px;
+            }
+            .heading2{
+                font-size: 25px;
+                font-family: "Chelsea Market", cursive;
+                margin-bottom: 15px;
+            }
+            
+            .copywrite p{
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 200;
+                text-align: center;
+                line-height: 30px;
+                padding: 20px;
+                background-color: #f7f4f4;
+            }
+            .copywrite p a{
+                text-decoration: none;
+                color: #f05a29;
+            }

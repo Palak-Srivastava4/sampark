@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(89, 88, 88);  
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    height: 100%;
+    width: 100%;
+    color: rgb(89, 88, 88);
+}
+nav{
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: bisque;
+}
+nav img{
+    height: 35px;
+    margin-left: 180px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 8px 12px;
+}
+nav ul li a{
+    color: rgb(87, 86, 86);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+    font-family: "DM Sans", sans-serif;
+}
+nav button{
+    border-radius: 80px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    background-color: #f05a29;;
+    align-items: center;
+    border:none;
+    height: 60px;
+    width: 220px;
+    margin-right:180px ;
+}
+nav button:hover{
+    background-color: #f05b29b1;
+}
+
+
+.menubar {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .sub-menu{
+        display: none;
+        position: absolute;
+        background-color: #f05a29;
+        min-width: 240px;
+        z-index: 1;
+        transform: translate(0px, 20px);
+  }
+  .sub-menu a {
+    color: white;
+    padding: 12px 36px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .sub-menu {display: block;}
+button:hover{
+    cursor: pointer;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+.card{
+    justify-content: space-around;
+    transition: all ease 0.6s;
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.logo-img a i{
+    border-radius: 50%;
+    background-color: white;
+    color: #f05a29;
+    padding: 20px;
+    margin-right: 40px;
+}
+.overlay:hover .logo-img a i{
+    background-color: #f05a29;
+    color: white;
+}
+.overlay{
+    height: 200px;
+    width: 380px;
+    background-color: rgb(244, 242, 242);
+    color: grey;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.overlay h4{
+    color: #f05a29;
+    font-size: 22px;
+    font-weight: 800;
+    white-space: nowrap;
+    margin-top: 14px;
+    text-align: center;
+    font-family: "Chelsea Market", cursive; 
+}
+.overlay p{
+    color: gray;
+text-align: center;
+font-weight: 600;
+font-family: "DM Sans", sans-serif;
+font-size: 14px;
+margin-top: 16px;
+}
+
+.overlay h6{
+    color: gray;
+text-align: center;
+font-weight: 600;
+font-family: "DM Sans", sans-serif;
+font-size: 16px;
+margin-top: 30px;
+}
+
+.overlay:hover{
+    background-color: antiquewhite;
+}
+
+.contact-info h4{
+    padding: 60px;
+    padding-top: 100px;
+    font-size: 66px;
+    font-family: "Chelsea Market", cursive; 
+    color: #000;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: -20px;
+}
+.flexed{
+    display: flex;
+    align-items: center;
+}
+.contact-info p{
+    padding: 24px;
+    font-size: 20px;
+    font-weight: 700;
+}
+input{
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px;
+    margin-top: -10px;
+    width: 640px;
+}
+.left {
+    width: 50%;
+    text-align: left;
+    padding-left: 60px;
+}
+.message{
+    padding-left: 60px;
+}
+textarea{
+    height: 30vh;
+    width: 90%;
+    padding: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+    border: none;
+    background-color: #f3f3f3;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    padding-top: 60px;
+}
+.btn button{
+    background-color: #f05a29;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    margin-top: 40px;
+}
+.get-in-touch{
+    background-color: bisque;
+    display: block;
+    width: 40%;
+    text-align: left;
+    padding: 40px;
+    padding-bottom: 0px;
+}
+.get-in-touch h4{
+    font-family: "Chelsea Market", cursive; 
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 40%;
+}
+.call{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -80px;
+    padding: 20px;
+}
+.call p{
+    color: gray;
+}
+.call a {
+    border-radius: 0%;
+    height: 40px;
+    width: 40px;
+    background-color: #efc94c;
+    text-align: center;
+    box-sizing: border-box;
+    margin-right: 30px;
+    margin-top: 10px;
+    }
+    .get-in-touch a i{
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .mail{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50px;
+    }
+    .mail p{
+        color: gray;
+    }
+    .mail a {
+        border-radius: 0%;
+        height: 40px;
+        width: 40px;
+        align-items: center;
+        color: white;
+        background-color:#00baa3;
+        text-align: center;
+        box-sizing: border-box;
+        margin-right: 30px;
+        margin-top: 10px;
+        }
+        .location{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -44px;
+            padding: 20px;
+        }
+        .location p{
+            color: gray;
+        }
+        .location a {
+            border-radius: 0%;
+            height: 40px;
+            width: 40px;
+            align-items: center;
+            color: white;
+            background-color: #f86048;
+            text-align: center;
+            box-sizing: border-box;
+            margin-right: 30px;
+            margin-top: 10px;
+            }
+
+            .social-links{
+                display: flex;
+                justify-content: center;
+            }
+            .social-links a {
+            border-radius: 0%;
+            height: 50px;
+            width: 50px;
+            align-items: center;
+            background-color: rgb(36, 35, 35);
+            text-align: center;
+            gap: 40px;
+            margin:  40px 10px;
+            }
+            .social-links a i{
+                color: gray;
+                font-size: 20px;
+                line-height: 50px;
+            }
+            .social-links :hover {
+                background-color: #efc94c;
+                transition: 0.3s;
+            }
+            .social-links :hover i{
+                color: white;
+                transition: 0.3s;
+            }
+
+            .contact {
+                font-size: 14px;
+                text-decoration: none;
+                color: gray;
+            }
+            .special-menu{
+                display: flex;
+                margin: 30px;
+            }
+            .contact ul li{
+              padding: 10px;
+              list-style: none;
+            }
+            .contact ul li a{
+                text-decoration: none;
+            }
+            .contact ul li :hover{
+                color: #f05a29;
+            }
+            .with-title1 {
+                display: flex;
+                margin-top: -480px;
+                margin-left: 200px;
+            }
+            .heading{
+                margin-top: 40px;
+                margin-left: 80px;
+                margin-bottom: 15px;
+                font-size: 25px;
+                font-family: "Chelsea Market", cursive;
+            }
+            .with-title1 ul li{
+                align-items: start;
+                margin-left: 80px;
+            }
+            .with-title2{
+                display: flex;
+                margin-top: -175px;
+                margin-left: 540px;
+            }
+            .heading2{
+                font-size: 25px;
+                font-family: "Chelsea Market", cursive;
+                margin-bottom: 15px;
+            }
+            
+            .copywrite p{
+                font-family: "DM Sans", sans-serif;
+                font-size: 16px;
+                font-weight: 200;
+                text-align: center;
+                line-height: 30px;
+                padding: 20px;
+                background-color: #f7f4f4;
+            }
+            .copywrite p a{
+                text-decoration: none;
+                color: #f05a29;
+            }
