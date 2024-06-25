@@ -13,7 +13,7 @@ body{
 nav{
     padding: 22px;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: bisque;
